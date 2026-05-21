@@ -1,0 +1,130 @@
+.shop:hover {
+    background-color: lightgreen;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.line {
+    position: relative;
+    width: 100%;
+    top: -180px;
+    border-bottom: 2px solid gray;
+}
+.website {
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.demo {
+    flex-wrap: wrap;
+    
+    overflow: hidden;
+}
+.box {
+    width: 100%;
+    height: 500px;
+}
+.shop-hero {
+    width: 100%;
+    height: 300px;
+    background-image: url(./Assests/Rectangle-1.png);
+}
+.cart {
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.hero {
+    width: 100%;
+    height: 50px;
+    background-color: #F9F1E7;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.icons {
+    position: relative;
+    top: 15px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divider-v {
+    border: 1px solid gray;
+    width: 2px;
+    height: 25px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.btn-1:hover {
+    background-color: #B88E2F;
+}
+ .features-bar {
+      background-color: #faf6f0;
+      padding: 30px 60px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+ 
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+ 
+    .feature-item img {
+      width: 50px;
+      height: 50px;
+     
+    }
+ 
+    .feature-text h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #333;
+    }
+    
+    .feature-text p {
+      font-size: 13px;
+      color: #888;
+      margin-top: 3px;
+    }
+    
+    @media (max-width: 768px) {
+  .features-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-bar {
+    padding: 16px 20px;
+  }
+
+  .feature-item img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .feature-text h4 {
+    font-size: 13px;
+  }
+
+  .feature-text p {
+    font-size: 11px;
+  }
+}
+
+    
